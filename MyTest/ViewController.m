@@ -23,5 +23,9 @@
     NSLog(@"git branch branchTwo======5");
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSLog(@"Super branchTwo ==viewDidAppear===1");
+}
 
 @end
