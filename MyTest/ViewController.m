@@ -18,5 +18,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"git branch branchTwo======1");
+}
+
 
 @end
