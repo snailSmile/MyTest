@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4702A9DF2B0B512F008E00A8 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4702A9DE2B0B512F008E00A8 /* TableViewCell.m */; };
 		47EEC5F92AEA925B00931EB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EEC5F82AEA925B00931EB6 /* AppDelegate.m */; };
 		47EEC5FC2AEA925B00931EB6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EEC5FB2AEA925B00931EB6 /* SceneDelegate.m */; };
 		47EEC5FF2AEA925B00931EB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EEC5FE2AEA925B00931EB6 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4702A9DD2B0B512F008E00A8 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		4702A9DE2B0B512F008E00A8 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		47EEC5F42AEA925B00931EB6 /* MyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47EEC5F72AEA925B00931EB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47EEC5F82AEA925B00931EB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				47EEC5FB2AEA925B00931EB6 /* SceneDelegate.m */,
 				47EEC5FD2AEA925B00931EB6 /* ViewController.h */,
 				47EEC5FE2AEA925B00931EB6 /* ViewController.m */,
+				4702A9DD2B0B512F008E00A8 /* TableViewCell.h */,
+				4702A9DE2B0B512F008E00A8 /* TableViewCell.m */,
 				47EEC6002AEA925B00931EB6 /* Main.storyboard */,
 				47EEC6032AEA925B00931EB6 /* Assets.xcassets */,
 				47EEC6052AEA925B00931EB6 /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 				47EEC5FF2AEA925B00931EB6 /* ViewController.m in Sources */,
 				47EEC5F92AEA925B00931EB6 /* AppDelegate.m in Sources */,
 				47EEC60A2AEA925B00931EB6 /* main.m in Sources */,
+				4702A9DF2B0B512F008E00A8 /* TableViewCell.m in Sources */,
 				47EEC5FC2AEA925B00931EB6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,8 +462,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.custom.MyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -482,8 +491,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.custom.MyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,8 +510,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.custom.MyTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTest";
 			};
 			name = Debug;
@@ -515,8 +530,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.custom.MyTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTest";
 			};
 			name = Release;
@@ -530,8 +548,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.custom.MyTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = MyTest;
 			};
 			name = Debug;
@@ -545,8 +566,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.custom.MyTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = MyTest;
 			};
 			name = Release;
